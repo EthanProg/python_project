@@ -88,6 +88,25 @@
 # it occupied will be filled with whatever the next element was, and the list will be reduced by as many
 # elements as you ’ ve  popped.
 
+# this is better than stack!
+
+# pop_list = [1,2,3,4,5];
+# q = pop_list.pop(0);
+# print(q);
+# print(pop_list);
+# q = pop_list.pop(1);
+# print(q);
+# print(pop_list);
+
+# Sets are similar to dictionaries in Python, except that they consist of only keys with no associated values.
+# Essentially, they are a collection of data with no duplicates. They are very useful when it comes to
+# removing duplicate data from data collections.
+
+# Sets come in two types: mutableand immutable frozensets.The difference between the two is that with a
+#     mutable set, you can add, remove, or change its elements, while the elements of an immutable frozenset
+# cannot be changed after they have been initially set.
+
+
 
 
 
