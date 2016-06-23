@@ -107,6 +107,34 @@
 # cannot be changed after they have been initially set.
 
 
+# Summary
+# In this chapter, you learned how to manipulate many core types that Python offers. These types are
+# tuples,  lists,  dictionaries,  sets, and three special types: None, True, and False. You ’ ve also learned a special
+# way that strings can be treated like a sequence. The other sequence types are tuples and lists.
+# A  tupleis a sequence of data that ’ s indexed in a fixed numeric order, starting at zero. The references in
+# the tuple can ’ t be changed after the tuple is created, nor can it have elements added or deleted. However,
+# if a tuple contains a data type that has changeable elements, such as a list, the elements of that data type
+# are not prevented from changing. Tuples are useful when the data in the sequence is better off not
+# changing, such as when you want to explicitly prevent data from being accidentally changed.
+# A  listis another type of sequence, which is similar to a tuple except that its elements can be modified.
+# The length of the list can be modified to accommodate elements being added using the append method,
+# and the length can be reduced by using the popmethod. If you have a sequence whose data you want to
+# append to a list, you can append it all at once with the extendmethod of a list.
+# Dictionariesare yet another kind of indexed grouping of data. However, whereas lists and tuples are
+# indexed by numbers, dictionaries are indexed by values that you choose. To explore the indexes, which
+# are called keys, you can invoke the keysmethod. To explore the data that is referred to, called the values,
+# you can use the valuesmethod. Both of these methods return lists.
+# Setsare a collection of items (0 or more), that contain no duplicates. In theory, they are similar to
+# dictionaries, except that they only have keys, and no values associated with those keys. One use for sets
+# is to remove any duplicates from a collection of data. They are also good at mimicking finite
+# mathematical sets.
+# Other data types are True,  False, and None.  Trueand Falseare a special way of looking at 1 and 0, but
+# when you want to test whether something is true or false, explicitly using the names Trueand False is
+# always the right thing to do. Noneis a special value that is built into Python that only equals itself, and it
+# is what you receive from functions that otherwise would not return any value (such as True,  False,  a
+# string, or other values).
+
+
 
 
 
