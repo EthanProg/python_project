@@ -107,7 +107,7 @@
 # cannot be changed after they have been initially set.
 
 
-# Summary
+# Summary #
 # In this chapter, you learned how to manipulate many core types that Python offers. These types are
 # tuples,  lists,  dictionaries,  sets, and three special types: None, True, and False. You ’ ve also learned a special
 # way that strings can be treated like a sequence. The other sequence types are tuples and lists.
