@@ -12,6 +12,7 @@ from nester import print_lol
 m_array = ['a','b','c',['d',['e','f']]]
 
 # namespace
-nester.print_lol(m_array)
-
-print_lol(m_array)
+# nester.print_lol(m_array)
+#
+# print_lol(m_array)
+nester.print_lol(m_array,3);
