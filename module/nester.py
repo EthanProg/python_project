@@ -7,6 +7,8 @@ def print_lol(the_list):
         else:
             print(each_item)
 
+# 方法重载
+# 这一点要强于javascript
 def print_lol(the_list, level):
     for each_item in the_list:
         if isinstance(each_item, list):
