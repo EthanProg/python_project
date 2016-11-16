@@ -15,4 +15,6 @@ m_array = ['a','b','c',['d',['e','f']]]
 # nester.print_lol(m_array)
 #
 # print_lol(m_array)
-nester.print_lol(m_array,3);
+# nester.print_lol(m_array,3);
+
+nester.print_lol(m_array);
