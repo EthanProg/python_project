@@ -1,0 +1,2 @@
+# The Python dictionaryis known by different names in other programming languages. If you hear other
+# programmers talking about a “mapping,” a “hash,” or an “associative array,” they are talking about a “dictionary.”
