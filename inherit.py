@@ -1,6 +1,9 @@
 def sani(x):
     return x + 1
 
+# inherit from list
+# self - a method argument that always
+# refer to the current object instance
 class AthleteList(list):
     def __init__(self,a_name,a_dob=None,a_times=[]):
         list.__init__([])
