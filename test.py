@@ -36,6 +36,10 @@
 # print(resout)
 
 
-x = [1,2,3]
-x.extend([4,5,6])
-print(x)
+# x = [1,2,3]
+# x.extend([4,5,6])
+# print(x)
+
+x = ('6901028048125', '6901028164160')
+for bb in x:
+    print(bb)

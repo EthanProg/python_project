@@ -25,3 +25,26 @@ mpl.rcParams['axes.unicode_minus'] = False
 # print(aa.index(1))
 
 # print(range._doc_)
+
+# from TKinter import *
+
+# aa = [1,2,3]
+# bb = DataFrame(aa,columns=['a','b','c'])
+# print(bb)
+
+# data = [5, 20, 15, 25, 10]
+#
+# print(range(len(data)))
+#
+# plt.bar(range(len(data)), data, color='rgb') # or `color=['r', 'g', 'b']`
+# plt.show()
+# ss = 'asdasd'
+# print(ss.isalnum())
+
+# print(0 if 1>3 else 5)
+
+import sqlite3
+
+a = '201705011'
+
+print(a[0:8])
